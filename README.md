@@ -14,3 +14,5 @@ getters and setters that modern versions of libpng implement. For your convenien
 version of libpng into the autotrace binary. I haven't bothered linking against ImageMagick or Ming because I 
 only needed to read a PNG, but if this binary is useful to someone other than me who wants the other formats
 supported, I can make another build. 
+
+USAGE:Copy the .exe into the extensions folder where the python extension resides. That's it.. The ceterline autotrace function should start working.
