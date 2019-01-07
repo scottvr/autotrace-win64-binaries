@@ -1,5 +1,8 @@
+UPDATE: jnweiger has updated autotrace to build windows packages now. You can get them from https://github.com/autotrace/autotrace
+However, the binary there does not support png and is dynamically linked to several other DLLs, unlike my historical build that's been here for the last three years. For this reason, coupled with the fact that much existing documentation points people here, I've gone ahead and built a similar binary from the new source. You should probably go for the official build so that he can have more Windows testers and thus stronger support, but here this is so that until new documentation around the official build displaces the old stuff pointing here, those instructions still work. 
+
 # autotrace-win64-binaries
-pre-compiled, statically linked autotrace binaries for 64-bit Windows
+pre-compiled, statically linked autotrace (0.40.0) binaries for 64-bit Windows
 
 I wanted to use inkscape-centerline-trace, which uses autotrace, but had nothing but fail wth 
 64-bit Inkscape under Windows 7. Strangely, if I started the autotrace-w32 binary under SysWow64\cmd.exe, 
