@@ -1,6 +1,6 @@
 0.40.0 UPDATE: jnweiger has updated autotrace to build windows packages now. You can get them from https://github.com/autotrace/autotrace/releases
 
-The binary there does not support png and is dynamically linked to several other DLLs, where this build is statically  linked with PNG support. That, coupled with the fact that much existing documentation points people here, I've gone ahead and built a binary from the latest 0.40.0 source. You should probably go for the official build so that he can have more Windows testers and thus stronger support, but here this is so that until new documentation around the official build displaces the old stuff pointing here, those instructions still work. 
+Much existing documentation points people here, I've gone ahead and built a binary from the latest 0.40.0 source but I will no longer be maintaining this build. You should go for the official build so that he can have more Windows testers and thus stronger support, but here this is so that until new documentation around the official build displaces the old stuff pointing here, those instructions still work. 
 
 # autotrace-win64-binaries
 pre-compiled, statically linked autotrace (0.40.0) binaries for 64-bit Windows
